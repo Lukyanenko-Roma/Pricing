@@ -1,0 +1,195 @@
+.card__monthly {
+	display: none;
+	justify-content: center;
+	border-radius: 26px;
+	max-width: 937px;
+	margin: auto;
+
+	background: rgba(255, 255, 255, 0.64);
+	padding: 40px 8px 0 8px;
+	margin-bottom: 64px;
+	flex-wrap: wrap;
+}
+.monthly__card:not(:last-child) {
+	margin-right: 34px;
+}
+
+.price__all {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 128%;
+	color: #231d4f;
+
+	margin-bottom: 20px;
+}
+.prise__all-span {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 17px;
+	color: #848199;
+}
+
+.title__all {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 28px;
+	color: #231d4f;
+
+	margin-bottom: 14px;
+}
+
+.text__all {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 15px;
+	color: #848199;
+	max-width: 232px;
+
+	margin-bottom: 18px;
+}
+.monthly__starter-list {
+	margin-bottom: 85px;
+}
+.monthly__starter-item,
+.monthly__professional-item,
+.monthly__company-item {
+	display: flex;
+	align-items: center;
+
+	&:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}
+.path__all {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	fill: #7B72C1;
+}
+
+.starter-list-text,
+.professional-list-text,
+.company-list-text {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 15px;
+	color: #848199;
+}
+.starter__btn,
+.professional__btn {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+
+	border-radius: 24px;
+	width: 207px;
+	height: 45px;
+	background: var(--color-btn-darkBlue);
+
+	&:hover {
+		background: #a847cc;
+	}
+}
+
+.monthly__professional-list {
+	margin-bottom: 52px;
+}
+
+.monthly__company {
+	position: relative;
+	top: -60px;
+border-radius: 26px;
+padding: 20px 30px;
+max-width: 292px;
+
+
+	box-shadow: 0 42px 34px 0 rgba(82, 67, 194, 0.3);
+	background-color: #231d4f;
+}
+.monthly__popular{
+	font-family: var(--font-family);
+font-weight: 800;
+font-size: 10px;
+letter-spacing: 0.08em;
+text-align: center;
+color: #bb6bd9;
+
+border-radius: 13px;
+background-color: #403879;
+padding: 7px 17px 5px 16px;
+margin-left: 111px;
+margin-bottom: 20px;
+
+}
+.monthly__company-price {
+	color: #fff;
+}
+.monthly__company-title {
+	color: #fff;
+}
+.monthly__company-text {
+	color: #fff;
+}
+.monthly__company-list {
+	margin-bottom: 21px;
+}
+
+.company-list-text {
+	color: #fff;
+}
+.company__path{
+	fill: white;
+}
+.company__btn {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+
+	border-radius: 24px;
+	width: 207px;
+	height: 45px;
+	background: var(--color-btn-pink);
+
+	&:hover {
+		background: #a847cc;
+	}
+}
+
+@media(max-width:940px){
+.monthly__card:not(:last-child) {
+	margin-right: 20;
+	margin-bottom: 100px;
+}
+
+}
+
+@media(max-width:468px){
+	.card__monthly{
+		margin-bottom: 64px;
+		padding-bottom: 8px;
+	}
+	.monthly__card:not(:last-child) {
+	margin-right: 0;
+	margin-bottom: 48px;
+}
+.monthly__starter-list,
+.monthly__professional-list {
+	margin-bottom: 40px;
+}
+.monthly__company{
+	top: 0;
+}
+.monthly__popular {
+	width: 121px;
+	margin: auto;
+}
+.monthly__company-price{
+	margin-top: 20px;
+}
+
+}

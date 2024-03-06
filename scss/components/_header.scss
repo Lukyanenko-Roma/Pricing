@@ -1,0 +1,40 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 0 32px 0;
+	margin-bottom: 41px;
+	
+}
+.header__burger {
+	background-color: transparent;
+}
+.header__burger-svg {
+	fill: #231d4f;
+}
+.header__logo {
+	width: 138px;
+	height: 30px;
+}
+.header__btn {
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 129%;
+text-align: center;
+color: #fff;
+
+border-radius: 25px;
+padding: 10px 30px;
+width: 124px;
+height: 38px;
+background: var(--color-btn-pink);
+}
+
+@media(max-width:468px){
+	.header {
+		padding: 32px 8px 32px 8px;
+	}
+	.header__btn{
+		display: none;
+	}
+}

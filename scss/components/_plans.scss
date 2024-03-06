@@ -1,0 +1,95 @@
+.plans {
+display: grid;
+justify-content: center;
+margin-bottom: 64px;
+}
+.plans__title {
+font-family:var(--font-family);
+font-weight: 400;
+font-size: 40px;
+color: #231d4f;
+
+margin-bottom: 25px;
+}
+.plans__card {
+	display: flex;
+}
+.plans__card-text {
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+color: #848199;
+max-width: 584px;
+margin-right: 122px;
+}
+.plans__card-toggle {
+	display: flex;
+
+border-radius: 22px;
+background-color: #fff;
+}
+.plans__card-monthly {
+font-family: "Poppins";
+font-weight: 500;
+font-size: 12px;
+letter-spacing: 0.07em;
+text-align: center;
+color: #3b3472;
+padding: 13px 24px;
+background: #fff;
+border-radius: 22px;
+width: 110px;
+text-transform: uppercase;
+}
+.plans__card-yearly {
+	font-family: "Poppins";
+font-weight: 500;
+font-size: 12px;
+letter-spacing: 0.07em;
+text-align: center;
+color: #3b3472;
+padding: 13px 24px;
+background: #fff;
+border-radius: 22px;
+width: 110px;
+text-transform: uppercase;
+}
+
+.active{
+	color: #fff;
+
+border-radius: 22px;
+width: 110px;
+
+box-shadow: 0 6px 12px 0 rgba(82, 67, 194, 0.16);
+background: var(--color-btn-pink);
+
+}
+
+
+@media (max-width: 768px){
+	.plans{
+		justify-items: center;
+	}
+	.plans__card{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.plans__card-text{
+		text-align: center;
+		margin-right: 0;
+		margin-bottom: 32px;
+	}
+}
+
+@media (max-width: 468px){
+	.plans{
+		margin-bottom: 32px;
+	}
+	.plans__title {
+		font-size: 39px;
+	}
+	.plans__card-text{
+		text-align: start;
+	}
+}

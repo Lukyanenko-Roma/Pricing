@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="./css/main.min.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<header class="header">
+				<button class='header__burger' type='button'>
+					<svg width="32" height="32" class='header__burger-svg'>
+						<use href='./imags/svg/sprite.svg#icon-burger'></use>
+					</svg>
+				</button>
+				<a href="#">
+									<img class='header__logo' src="./imags/img/logo-frame.png" alt="logo">
+				</a>
+				<button class='header__btn' type='button'>Join Now</button>
+			</header>
+			<section class='plans'>
+				<h2 class="plans__title">Plans & Pricing</h2>
+				<div class="plans__card">
+					<p class="plans__card-text">Whether your time-saving automation needs are large or small, we’re here to help you scale.</p>
+					<div class="plans__card-toggle">
+						<button class="plans__card-monthly tab active" data-tab="#monthly" type='button'>monthly</button>
+						<button class="plans__card-yearly tab" data-tab="#yearly"  type='button'>yearly</button>
+					</div>
+				</div>
+			</section>
+			<section class="card__monthly tab__content show" id="monthly">
+				<div class="monthly__starter monthly__card">
+					<h3 class="monthly__starter-price price__all">$19 <span class="prise__all-span">/month</span></h3>
+					<h2 class="monthly__starter-title title__all">Starter</h2>
+					<p class="monthly__starter-text text__all">Unleash the power of automation.</p>
+					<ul class="monthly__starter-list">
+						<li class="monthly__starter-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="starter-list-text">Multi-step Zaps</p>
+						</li>
+						<li class="monthly__starter-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="starter-list-text">3 Premium Apps</p>
+						</li>
+						<li class="monthly__starter-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="starter-list-text">2 Users team</p>
+						</li>
+					</ul>
+					<button class="starter__btn">Choose plan</button>
+
+				</div>
+				<div class="monthly__professional monthly__card">
+					<h3 class="monthly__professional-price price__all">$54 <span class="prise__all-span">/month</span></h3>
+					<h2 class="monthly__professional-title title__all">Professional</h2>
+					<p class="monthly__starter-text text__all">Advanced tools to take your work to the next level.</p>
+					<ul class="monthly__professional-list">
+						<li class="monthly__professional-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="professional-list-text">Multi-step Zaps</p>
+						</li>
+						<li class="monthly__professional-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="professional-list-text">Unlimited Premium Apps</p>
+						</li>
+						<li class="monthly__professional-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="professional-list-text">50 Users team</p>
+						</li>
+						<li class="monthly__professional-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="professional-list-text">Shared Workspace</p>
+						</li>
+					</ul>
+					<button class="professional__btn">Choose plan</button>
+
+				</div>
+				<div class="monthly__company monthly__card">
+					<h3 class="monthly__popular">MOST POPULAR</>
+					<h3 class="monthly__company-price price__all">$89 <span class="prise__all-span">/month</span></h3>
+					<h2 class="monthly__company-title title__all">Company</h2>
+					<p class="monthly__company-text text__all">Automation plus enterprise-grade features.</p>
+					<ul class="monthly__company-list">
+						<li class="monthly__company-item">
+							<svg class="company__path path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="company-list-text">Multi-step Zaps</p>
+						</li>
+						<li class="monthly__company-item">
+							<svg class="company__path path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="company-list-text">Unlimited Premium Apps</p>
+						</li>
+						<li class="monthly__company-item">
+							<svg class="company__path path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="company-list-text">Unlimited Users Team</p>
+						</li>
+						<li class="monthly__company-item">
+							<svg class="company__path path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="company-list-text">Advanced Admin</p>
+						</li>
+						<li class="monthly__company-item">
+							<svg class="company__path path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="company-list-text">Custom Data Retention</p>
+						</li>
+					</ul>
+					<button class="company__btn">Choose plan</button>
+				</div>
+			</section>
+			<section class="card__yearly tab__content" id="yearly">
+				<div class="monthly__starter monthly__card">
+					<h3 class="monthly__starter-price price__all">$12 <span class="prise__all-span">/month</span></h3>
+					<h2 class="monthly__starter-title title__all">Starter</h2>
+					<p class="monthly__starter-text text__all">Unleash the power of automation.</p>
+					<ul class="monthly__starter-list">
+						<li class="monthly__starter-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="starter-list-text">Multi-step Zaps</p>
+						</li>
+						<li class="monthly__starter-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="starter-list-text">3 Premium Apps</p>
+						</li>
+						<li class="monthly__starter-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="starter-list-text">2 Users team</p>
+						</li>
+					</ul>
+					<button class="starter__btn">Choose plan</button>
+				
+				</div>
+				<div class="monthly__professional monthly__card">
+					<h3 class="monthly__professional-price price__all">$36 <span class="prise__all-span">/month</span></h3>
+					<h2 class="monthly__professional-title title__all">Professional</h2>
+					<p class="monthly__starter-text text__all">Advanced tools to take your work to the next level.</p>
+					<ul class="monthly__professional-list">
+						<li class="monthly__professional-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="professional-list-text">Multi-step Zaps</p>
+						</li>
+						<li class="monthly__professional-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="professional-list-text">Unlimited Premium Apps</p>
+						</li>
+						<li class="monthly__professional-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="professional-list-text">50 Users team</p>
+						</li>
+						<li class="monthly__professional-item">
+							<svg class="path__all">
+								<use href='./imags/svg/sprite.svg#icon-path'></use>
+							</svg>
+							<p class="professional-list-text">Shared Workspace</p>
+						</li>
+					</ul>
+					<button class="professional__btn">Choose plan</button>
+				
+				</div>
+				<div class="monthly__company monthly__card"> 
+					<h3 class="monthly__popular">MOST POPULAR</>
+						<h3 class="monthly__company-price price__all">$56 <span class="prise__all-span">/month</span></h3>
+						<h2 class="monthly__company-title title__all">Company</h2>
+						<p class="monthly__company-text text__all">Automation plus enterprise-grade features.</p>
+						<ul class="monthly__company-list">
+							<li class="monthly__company-item">
+								<svg class="company__path path__all">
+									<use href='./imags/svg/sprite.svg#icon-path'></use>
+								</svg>
+								<p class="company-list-text">Multi-step Zaps</p>
+							</li>
+							<li class="monthly__company-item">
+								<svg class="company__path path__all">
+									<use href='./imags/svg/sprite.svg#icon-path'></use>
+								</svg>
+								<p class="company-list-text">Unlimited Premium Apps</p>
+							</li>
+							<li class="monthly__company-item">
+								<svg class="company__path path__all">
+									<use href='./imags/svg/sprite.svg#icon-path'></use>
+								</svg>
+								<p class="company-list-text">Unlimited Users Team</p>
+							</li>
+							<li class="monthly__company-item">
+								<svg class="company__path path__all">
+									<use href='./imags/svg/sprite.svg#icon-path'></use>
+								</svg>
+								<p class="company-list-text">Advanced Admin</p>
+							</li>
+							<li class="monthly__company-item">
+								<svg class="company__path path__all">
+									<use href='./imags/svg/sprite.svg#icon-path'></use>
+								</svg>
+								<p class="company-list-text">Custom Data Retention</p>
+							</li>
+						</ul>
+						<button class="company__btn">Choose plan</button>
+				</div>
+			</section>
+		</div>
+	</div>
+	<script src="./js/tabs.js"></script>
+</body>
+</html>
